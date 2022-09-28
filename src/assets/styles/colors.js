@@ -21,6 +21,7 @@ const colors = {
   };
   
   const backgroundColors = {
+    statusBar: '#e9e9e9',
     default: '#FFF',
     grey: '#747476',
     bug: '#8BD674',

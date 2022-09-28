@@ -6,7 +6,7 @@ import { backgroundColors } from './src/assets/styles/colors';
 const Content = () => {
   return (
     <Fragment>
-      <StatusBar barStyle={'dark-content'} backgroundColor={backgroundColors.grey} />
+      <StatusBar barStyle={'dark-content'} backgroundColor={backgroundColors.statusBar} />
       <Routes />
     </Fragment>
   );
