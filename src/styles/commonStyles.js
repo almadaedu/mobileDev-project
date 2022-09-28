@@ -11,7 +11,7 @@ const useStyles = () => {
     },
     heading: {
         fontSize: 32,
-        fontWeight: 700
+        fontWeight: '700'
     },
     subHeading: {
         fontSize: 16,
