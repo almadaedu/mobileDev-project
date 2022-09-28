@@ -1,20 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
+import React, { Fragment } from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import Routes from './src/routes';
+import { StatusBar } from 'react-native';
+import { backgroundColors } from './src/assets/styles/colors';
+const Content = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Fragment>
+      <StatusBar barStyle={'dark-content'} backgroundColor={backgroundColors.grey} />
+      <Routes />
+    </Fragment>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+ const App = () => {
+  return(
+    <NavigationContainer>
+      <Content />
+    </NavigationContainer>
+  )
+ }
+
+
+ export default App
