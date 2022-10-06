@@ -1,6 +1,6 @@
 //#region Imports
 import React from "react";
-import { View, Text, ImageBackground, Image } from 'react-native';
+import { View, Text, ImageBackground, Image, ScrollView } from 'react-native';
 import { height } from "../../assets/constants";
 import Pokeball_header from '../../assets/Images/Pokeball_header.png'
 import useStyles from '../../styles/commonStyles'
@@ -11,7 +11,9 @@ import Filter from '../../assets/Images/filter.png'
 import { textColor } from '../../assets/styles/colors'
 import IconButton from "../../components/IconButton";
 import Input from "../../components/Input";
+import Card from "../../components/Card";
 //#endregion
+
 const Home = () => {
     const styles = useStyles()
     return (
@@ -30,7 +32,7 @@ const Home = () => {
                         </IconButton>
                     </View>
                     <Text style={styles.heading}>Pokédex</Text>
-                    <Text style={styles.subHeading}>Seja bem vindo á Pokédex da primeira geração de Pokémons</Text>
+                    <Text style={styles.subHeading}>Seja bem-vindo à Pokedex da primeira geração de Pokémons</Text>
 
                     <View style={styles.searchContainer}>
                     <Input placeholder="Procure um pokémon" placeholderTextColor={textColor.grey}/>
@@ -38,6 +40,9 @@ const Home = () => {
                             <Image style={{ width: 16, height: 16 }} color={textColor.white} source={Search} />
                         </IconButton>
                     </View>
+                    <Card />
+                    <Card />
+                    <Card />
                 </View>
             </ImageBackground>
         </View>
