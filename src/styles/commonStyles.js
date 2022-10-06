@@ -18,15 +18,6 @@ const useStyles = () => {
         marginTop: 10,
         color: textColor.grey,
     },
-    searchContainer: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        marginVertical: 15,
-        height: 50,
-        backgroundColor: customColor.input,
-        borderRadius: 10,
-        justifyContent: 'space-between'
-    },
     
     })
 }

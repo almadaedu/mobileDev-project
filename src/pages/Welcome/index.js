@@ -15,11 +15,14 @@ const Welcome = () => {
                 <Text style={styles.subText}>Pokédex</Text>
             </View>
             <View style={styles.main}>
+                <AnimatedLottieView source={pokemonAnimation} autoPlay={true} resizeMode={'cover'} loop={true} style={{width: 400, height: 350}}  />
             </View>
             <View style={styles.footer}>
-
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>Fazer Login</Text>
+                </TouchableOpacity>
+                <Text style={styles.upperText}>Encontre aqui diversos tipos de pokémon</Text>
             </View>
-                <AnimatedLottieView source={pokemonAnimation} autoPlay={true} resizeMode={'cover'} loop={true} style={{width: 400, height: 350}}  />
         </View>
     );
 
