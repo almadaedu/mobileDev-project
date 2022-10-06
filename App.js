@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import Routes from './src/routes';
-import { StatusBar } from 'react-native';
+import { ScrollView, StatusBar } from 'react-native';
 import { backgroundColors } from './src/assets/styles/colors';
 const Content = () => {
   return (

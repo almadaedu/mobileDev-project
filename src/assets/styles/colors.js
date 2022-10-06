@@ -22,6 +22,7 @@ const colors = {
   
   const backgroundColors = {
     statusBar: '#e9e9e9',
+    welcome: '#2e3552',
     default: '#FFF',
     grey: '#747476',
     bug: '#8BD674',
@@ -46,6 +47,8 @@ const colors = {
   
   const textColor = {
     white: '#FFF',
+    yellow: '#f1b914',
+    rockWhite: '#c9cdd4',
     black: '#17171B',
     grey: '#747476',
     number: 'rgba(23, 23, 27, 0.6)',
