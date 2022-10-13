@@ -1,12 +1,12 @@
 //#region Imports
 
 import React from "react";
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Button } from 'react-native';
 import useStyles from "./styles";
 import AnimatedLottieView from "lottie-react-native";
 import pokemonAnimation from '../../assets/Images/pokemon.json'
 //#endregion
-const Welcome = () => {
+const Welcome = ( {navigation} ) => {
     const styles = useStyles()
     return (
         <View style={styles.container} >
@@ -18,7 +18,7 @@ const Welcome = () => {
                 <AnimatedLottieView source={pokemonAnimation} autoPlay={true} resizeMode={'cover'} loop={true} style={{width: 400, height: 350}}  />
             </View>
             <View style={styles.footer}>
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('Home')}>
                     <Text style={styles.buttonText}>Fazer Login</Text>
                 </TouchableOpacity>
                 <Text style={styles.upperText}>Encontre aqui diversos tipos de pokémon</Text>

@@ -11,13 +11,11 @@ const Home = () => {
     const styles = useStyles()
     return (
         <ImageBackground resizeMode="contain" style={{ width: '100%', height: height / 4 }} source={Pokeball_header}>
-            <ScrollView>
                 <View style={styles.container}>
                     <Text style={styles.heading}>Pokédex</Text>
                     <Text style={styles.subHeading}>Seja bem-vindo à Pokedex da primeira geração de Pokémons</Text>
                     <Input />
                 </View>
-            </ScrollView>
         </ImageBackground>
     );
 
