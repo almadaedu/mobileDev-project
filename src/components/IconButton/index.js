@@ -4,7 +4,7 @@ import React from 'react'
 import useStyles from "./styles";
 //#endregion
 
-const IconButton = ({ children, onPress, style }) => {
+const Icon = ({ children, onPress, style, ...props }) => {
   const styles = useStyles()
   return (
     <TouchableOpacity onPress={onPress}>
@@ -16,4 +16,4 @@ const IconButton = ({ children, onPress, style }) => {
   )
 }
 
-export default IconButton
+export default Icon

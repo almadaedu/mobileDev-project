@@ -22,7 +22,8 @@ const colors = {
   
   const backgroundColors = {
     statusBar: '#e9e9e9',
-    welcome: '#2e3552',
+    welcomeBackground: '#2e3552',
+    goldYellow: '#f1b914',
     default: '#FFF',
     grey: '#747476',
     bug: '#8BD674',
@@ -47,7 +48,8 @@ const colors = {
   
   const textColor = {
     white: '#FFF',
-    yellow: '#f1b914',
+    darkBlue: '#2e3552',
+    goldYellow: '#f1b914',
     rockWhite: '#c9cdd4',
     black: '#17171B',
     grey: '#747476',
