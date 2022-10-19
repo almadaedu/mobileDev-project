@@ -2,6 +2,10 @@
 
 Projeto criado a partir das tarefas solicitadas na aula de Desenvolvimento móvel na faculdade Uniacademia/JF
 
+### 💾 Tecnologias
+![image](	https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![image](	https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
 ## 🛠️ Ferramentas utilizadas
 
 <p>
@@ -22,6 +26,10 @@ Para este projeto, é necessário ter instalado as seguintes ferramentas:
 </ul>
 </p>
 
+## 🧨 Limitações
+
+Devido a biblioteca Lottie, a aplicação torna-se impossibilitada de ser inicializada como página web, pois não há suporte para determinada ação. Recomenda-se inicializar a aplicação em um emulador android ou dispositivo mobile físico de sua preferência.
+
 ## ⚙️ Instalação
 
 Após ter instalado os pré-requisitos, basta seguir o seguintes passos:
@@ -37,10 +45,6 @@ git clone https://github.com/almadaedu/mobileDev-project.git
 Ainda dentro de sua CLI execute os comandos:
 
 ```
-cd mobileDev-project
-```
-Em seguida:
-```
 yarn install
 ```
 E por último:
@@ -54,3 +58,4 @@ Ao executar estes comandos, basta escolher em sua CLI onde deseja que o projeto 
 ## ✒️ Autores
 
 * **Eduardo Almada** - *Front-End* - (https://github.com/almadaedu)
+
