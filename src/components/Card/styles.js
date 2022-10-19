@@ -19,7 +19,8 @@ const useStyles = () => {
     cardTitle: {
         fontSize: 26,
         color: textColor.white,
-        fontWeight: '700'
+        fontWeight: '700',
+        marginBottom: 5
     },
     imageContainer: {
         marginTop: -10,
