@@ -22,6 +22,7 @@ const colors = {
   
   const backgroundColors = {
     statusBar: '#e9e9e9',
+    background: '#f4f4f4',
     welcomeBackground: '#2e3552',
     goldYellow: '#f1b914',
     default: '#FFF',

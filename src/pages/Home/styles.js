@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
-import { textColor, customColor } from '../assets/styles/colors';
+import { textColor, customColor, backgroundColors } from '../../assets/styles/colors';
 const useStyles = () => {
     return StyleSheet.create({
     container: {
-        padding: 20,
+        padding: 20
     },
     row: {
         flexDirection: 'row',
