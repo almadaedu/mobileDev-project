@@ -1,10 +1,10 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 import useStyles from './styles'
-import Fire from '../../../assets/Images/fire.png'
-import Flying from '../../../assets/Images/flying.png'
-import Ice from '../../../assets/Images/ice.png'
-import Psychic from '../../../assets/Images/psychic.png'
+import Water from '../../../assets/Images/water.png'
+import Rock from '../../../assets/Images/rock.png'
+import Earth from '../../../assets/Images/earth.png'
+import TrainingData from './TrainingData'
 
 const Data = () => {
     const styles = useStyles()
@@ -19,23 +19,22 @@ const Data = () => {
                     <Text style={styles.infoText}>Habilidades</Text>
 
                 </View>
-                <View style={styles.infoAnswers}>
-                    <Text style={styles.infoText}>Pokémon semente</Text>
-                    <Text style={styles.infoText}>0.7m (2′04″)</Text>
-                    <Text style={styles.infoText}>6.9kg (15.2 lbs)</Text>
-                    <Text style={styles.infoText}>1. Overgrow</Text>
+                <View style={styles.infoAnswersData}>
+                    <Text style={styles.infoAnswers}>Pokémon Lagarto</Text>
+                    <Text style={styles.infoAnswers}>0.6m (2′00″)</Text>
+                    <Text style={styles.infoAnswers}>8.5kg (18.7 lbs)</Text>
+                    <Text style={styles.infoAnswers}>1. Brasa</Text>
                 </View>
             </View>
             <View style={styles.weakness}>
                 <Text style={styles.info}>Fraqueza</Text>
                 <View style={styles.weaknessTypes}>
-                    <Image style={styles.image} source={Fire} />
-                    <Image  style={styles.image} source={Flying} />
-                    <Image  style={styles.image} source={Ice} />
-                    <Image  style={styles.image} source={Psychic} />
+                    <Image style={styles.image} source={Water} />
+                    <Image  style={styles.image} source={Rock} />
+                    <Image  style={styles.image} source={Earth} />
                 </View>
-
             </View>
+            <TrainingData />
         </View>
     )
 }

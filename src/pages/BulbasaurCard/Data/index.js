@@ -5,6 +5,7 @@ import Fire from '../../../assets/Images/fire.png'
 import Flying from '../../../assets/Images/flying.png'
 import Ice from '../../../assets/Images/ice.png'
 import Psychic from '../../../assets/Images/psychic.png'
+import TrainingData from './TrainingData'
 
 const Data = () => {
     const styles = useStyles()
@@ -19,11 +20,11 @@ const Data = () => {
                     <Text style={styles.infoText}>Habilidades</Text>
 
                 </View>
-                <View style={styles.infoAnswers}>
-                    <Text style={styles.infoText}>Pokémon semente</Text>
-                    <Text style={styles.infoText}>0.7m (2′04″)</Text>
-                    <Text style={styles.infoText}>6.9kg (15.2 lbs)</Text>
-                    <Text style={styles.infoText}>1. Overgrow</Text>
+                <View style={styles.infoAnswersData}>
+                    <Text style={styles.infoAnswers}>Pokémon semente</Text>
+                    <Text style={styles.infoAnswers}>0.7m (2′04″)</Text>
+                    <Text style={styles.infoAnswers}>6.9kg (15.2 lbs)</Text>
+                    <Text style={styles.infoAnswers}>1. Overgrow</Text>
                 </View>
             </View>
             <View style={styles.weakness}>
@@ -36,6 +37,7 @@ const Data = () => {
                 </View>
 
             </View>
+            <TrainingData />
         </View>
     )
 }

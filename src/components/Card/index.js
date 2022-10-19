@@ -6,13 +6,15 @@ import Tag from '../Tag'
 import Pokeball_BG from '../../assets/Images/pokeball-bg.png'
 import Dots from '../../assets/Images/Dots_card.png'
 import { width } from '../../assets/constants'
-import { useNavigation} from '@react-navigation/native'
+import { useNavigation } from '@react-navigation/native'
 const Card = ({ item }) => {
   const navigation = useNavigation()
   const styles = useStyles()
+
   let type = "grass"
   let name = "Bulbassauro"
   let number = "#001"
+
   if (item > 3) {
     number = "#004"
     type = "fire"
@@ -23,6 +25,7 @@ const Card = ({ item }) => {
     type = "water"
     name = "Squirtle"
   }
+
   function navigateCard() {
     if(type === 'grass') {
       return 'BulbasaurCard'
@@ -32,6 +35,7 @@ const Card = ({ item }) => {
       return 'SquirtleCard'
     }
   }
+
   return (
     <TouchableOpacity onPress={() => navigation.navigate(navigateCard())}>
       <View style={{ ...styles.card, backgroundColor: backgroundColors[type] }}>

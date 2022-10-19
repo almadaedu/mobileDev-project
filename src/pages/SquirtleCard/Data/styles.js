@@ -1,26 +1,32 @@
 //#region Imports
 import { StyleSheet } from "react-native";
-import {  colors } from '../../../assets/styles/colors';
+import {  colors, textColor } from '../../../assets/styles/colors';
 //#endregion
 
 const useStyles = () => {
     return StyleSheet.create({
     infoTitle: {
-        color: colors.grass,
+        color: colors.water,
         fontWeight: '700',
-        fontSize: 16
+        fontSize: 16,
+        marginLeft: 8
     },
     data: {
         flexDirection: 'row'
     },
-    info: {
-        marginRight: 20
-    },
     infoText: {
         margin: 10,
+        fontWeight: '500'
     },
     infoAnswers: {
-        marginLeft: 20
+        margin: 10,
+        color: textColor.grey,
+    },
+    infoAnswersData: {
+        marginLeft: 60
+    },
+    infoAnswersTraining: {
+        marginLeft: 10
     },
     weakness: {
         margin: 10,
@@ -29,7 +35,7 @@ const useStyles = () => {
     },
     weaknessTypes: {
         flexDirection: 'row',
-        marginLeft: 50,
+        marginLeft: 90,
         justifyContent: 'space-around'
     },
     image: {

@@ -7,7 +7,7 @@ const useStyles = () => {
     return StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: backgroundColors.water
+        backgroundColor: backgroundColors.water,
     },
     title: {
         color: textColor.white,
