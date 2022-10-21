@@ -4,6 +4,7 @@ import { height } from "../../assets/constants";
 import Pokeball_header from '../../assets/Images/Pokeball_header.png'
 import useStyles from './styles'
 import Card from "../../components/Card";
+import Input from '../../components/Input'
 //#endregion
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
                     </View>
                 </ImageBackground>
             </View>
+            <Input />
             <View>
                 <FlatList
                     showsVerticalScrollIndicator={false}

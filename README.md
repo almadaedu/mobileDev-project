@@ -2,6 +2,9 @@
 
 Projeto criado a partir das tarefas solicitadas na aula de Desenvolvimento móvel na faculdade Uniacademia/JF
 
+Esta aplicação tem como objetivo servir como uma pokédex, ou seja, informar a respeito de cada pokémon da primeira geração, isso inclui seus dados e tipo de treinamento.
+
+Esta se encontra apenas como um protótipo do que primordialmente pretende-se fazer.
 ### 💾 Tecnologias
 ![image](	https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![image](	https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -14,6 +17,12 @@ React Native - O React Native é um framework que permite o desenvolvimento de a
 <p>
 Expo - Expo é uma ferramenta utilizada no desenvolvimento mobile com React Native que permite o fácil acesso às API’s nativas do
 dispositivo sem precisar instalar qualquer dependência ou alterar código nativo.
+</p>
+<p>
+Lottie - Lottie é uma biblioteca open-source de animações que permite manipular arquivos pequenos e em alta qualidade, programável, interativo e pode ser manipulado em tempo de execução
+</p>
+<p>
+React Navigation - Biblioteca para navegação entre telas que inclui diversos tipos de disponibilidades. Atualmente a navegação utilizada foi a react navigation stack
 </p>
 
 ## 📋 Pré-requisitos
